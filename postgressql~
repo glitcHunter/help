@@ -1,0 +1,19 @@
+/etc/postgresql/9.3/main$ 
+
+końcówka pgsql
+netstat -anp | grep postgre 
+
+komendy postgresql
+ service postgresql
+
+super użytkownik postrgresql 
+ service postgresql status
+
+run postgresql
+psql 
+
+alter user postgres with password='pass';
+CREATE USER user1 WITH PASSWORD 'megaspass';
+
+lista użytkowników
+\du
